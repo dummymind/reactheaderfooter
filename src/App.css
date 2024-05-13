@@ -7,6 +7,8 @@
   pointer-events: none;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +37,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.badge {
+  border: 1px solid gainsboro;
+  /* Set border color and thickness */
+  padding: 5px !important;
+  /* Set padding */
+  font-weight: bold !important;
+  color: darkblue !important;
+  margin: 5px !important;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: darkblue;
+  padding: 10px 0;
+  border-top: 1px solid gainsboro;
+  font-size: small !important;
+}
+
+.buttonrequest, .buttonrequest:hover {
+  align-items: center;
+  color: darkblue !important;
+  background-color: #00D7B8 !important;
+  font-size: small !important;
+}
+
+
+.footer .left-button {
+  margin-left: 15px; /* Margin for the left button */
+  margin-bottom: 5px;
+  font-size: small !important;
+}
+.footer .right-buttons {
+  margin-right: 15px; /* Margin for the right buttons */
+  margin-bottom: 5px;
+  font-size: small !important;
 }
