@@ -79,3 +79,126 @@
   margin-bottom: 5px;
   font-size: small !important;
 }
+
+
+
+
+.bd-placeholder-img {
+  background: url('capture_decran_20240313_a_16271.jpeg') 50% / cover no-repeat; 
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color:darkblue;
+}
+
+.content {
+  color:darkblue;
+  padding: 10px;
+  font-size: small;
+}
+
+.btn-breadcrumb {
+  background-color: gainsboro !important;
+  font-size: 5px;
+  color: darkblue !important;
+}
+
+.btn-custom {
+  color: darkblue !important;
+  font-size: small;
+}
+
+.btn-breadcrumb .selectbreadcrumb {
+  font-weight: bold;
+  background-color: #00D7B8 !important;
+}
+
+.btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid gainsboro;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: 100%;
+  z-index: 3;
+}
+
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid gainsboro;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+.btn-breadcrumb .btn {
+  padding: 3px 9px 6px 12px;
+}
+
+.btn-breadcrumb .btn:first-child {
+  padding: 3px 3px 3px 5px;
+}
+
+.btn-breadcrumb .btn:last-child {
+  padding: 3px 9px 3px 12px;
+}
+
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {
+  border-left: 10px solid gainsboro;
+}
+
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {
+  border-left: 10px solid gainsboro;
+}
+
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {
+  border-left: 10px solid #ebebeb;
+}
+
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {
+  border-left: 10px solid #ebebeb;
+}
+
+.btn-breadcrumb .btn.btn-default.selectbreadcrumb:not(:last-child):after {
+  border-left: 10px solid #00D7B8;
+}
+
+.btn-breadcrumb .selectbreadcrumb .btn.btn-default:not(:last-child):before {
+  border-left: 10px solid #00D7B8 ;
+}
+
+.btn-breadcrumb .selectbreadcrumb .btn.btn-default:hover:not(:last-child):after {
+  border-left: 10px solid #00D7B8 ;
+}
+
+.btn-breadcrumb .selectbreadcrumb .btn.btn-default:hover:not(:last-child):before {
+  border-left: 10px solid aquamarine;
+}
+
+
+
+.custom-jumbotron {
+    min-height: 360px; /* Adjust height as needed */
+    padding: 2rem 1rem; /* Adjust padding as needed */
+}
+
+
+.bottom-row {
+flex-shrink: 0; /* Ensure the bottom row doesn't shrink */
+}
